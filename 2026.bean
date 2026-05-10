@@ -1,0 +1,293 @@
+; =============================================================================
+; 2026 Transactions  (January – May 10)
+; =============================================================================
+
+; ── January 2026 ─────────────────────────────────────────────────────────
+
+2026-01-01 * "Employer" "January salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2026-01-01 * "Landlord" "January rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2026-01-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2026-01-06 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2026-01-08 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2026-01-10 * "Meituan" "Chinese New Year food order" ; paid via Alipay
+  Expenses:Food                      300 CNY
+  Assets:Cash:Alipay                -300 CNY
+
+2026-01-12 * "Con Edison" "Electricity and gas – winter heating"
+  Expenses:Utilities                 175.00 USD
+  Assets:Cash:Checking              -175.00 USD
+
+2026-01-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2026-01-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2026-01-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2026-01-17 * "Alamo Drafthouse" "Movie screening"
+  Expenses:Entertainment             120.00 USD
+  Assets:Cash:Checking              -120.00 USD
+
+2026-01-22 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      102.00 USD
+  Assets:Cash:Checking              -102.00 USD
+
+2026-01-29 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               4000.00 USD
+  Assets:Cash:Checking             -4000.00 USD
+
+2026-01-31 * "Vanguard" "ETF – DCA January"
+  Assets:Investment:ETF                8 VTSAX {130.80 USD}
+  Assets:Cash:Checking             -1046.40 USD
+
+; ── February 2026 ────────────────────────────────────────────────────────
+
+2026-02-01 * "Employer" "February salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2026-02-01 * "Landlord" "February rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2026-02-04 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2026-02-06 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2026-02-07 * "Vanguard" "VTSAX Q1 dividend"
+  Assets:Cash:Checking               68.00 USD
+  Income:Investment:Dividends        -68.00 USD
+
+2026-02-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       92.00 USD
+  Assets:Cash:Checking               -92.00 USD
+
+2026-02-12 * "Con Edison" "Electricity and gas – winter heating"
+  Expenses:Utilities                 190.00 USD
+  Assets:Cash:Checking              -190.00 USD
+
+2026-02-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2026-02-14 * "Eleven Madison Park" "Valentine's Day dinner"
+  Expenses:Food                      320.00 USD
+  Assets:Cash:Checking              -320.00 USD
+
+2026-02-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2026-02-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2026-02-18 * "Meituan" "Chinese food delivery" ; paid via Alipay
+  Expenses:Food                      250 CNY
+  Assets:Cash:Alipay                -250 CNY
+
+2026-02-20 * "Coursera" "Advanced system design course"
+  Expenses:Education                 299.00 USD
+  Assets:Cash:Checking              -299.00 USD
+
+2026-02-25 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2026-02-27 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               3500.00 USD
+  Assets:Cash:Checking             -3500.00 USD
+
+2026-02-28 * "Vanguard" "ETF – DCA February"
+  Assets:Investment:ETF                8 VTSAX {134.50 USD}
+  Assets:Cash:Checking             -1076.00 USD
+
+; ── March 2026 ───────────────────────────────────────────────────────────
+
+2026-03-01 * "Employer" "March salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2026-03-01 * "Landlord" "March rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2026-03-04 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      102.00 USD
+  Assets:Cash:Checking              -102.00 USD
+
+2026-03-07 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2026-03-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2026-03-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 155.00 USD
+  Assets:Cash:Checking              -155.00 USD
+
+2026-03-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2026-03-14 * "Amtrak" "NYC–Boston round trip" #spring-getaway
+  Expenses:Travel                    180.00 USD
+  Assets:Cash:Checking              -180.00 USD
+
+2026-03-14 * "The Newbury Boston" "2 nights hotel" #spring-getaway
+  Expenses:Travel                    420.00 USD
+  Assets:Cash:Checking              -420.00 USD
+
+2026-03-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2026-03-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2026-03-16 * "Boston restaurants" "Seafood and lobster" #spring-getaway
+  Expenses:Food                      195.00 USD
+  Assets:Cash:Checking              -195.00 USD
+
+2026-03-20 * "Meituan" "Chinese food delivery" ; paid via Alipay
+  Expenses:Food                      280 CNY
+  Assets:Cash:Alipay                -280 CNY
+
+2026-03-25 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       98.00 USD
+  Assets:Cash:Checking               -98.00 USD
+
+2026-03-28 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               3000.00 USD
+  Assets:Cash:Checking             -3000.00 USD
+
+2026-03-31 * "Vanguard" "ETF – DCA March"
+  Assets:Investment:ETF                8 VTSAX {136.90 USD}
+  Assets:Cash:Checking             -1095.20 USD
+
+; ── April 2026 ───────────────────────────────────────────────────────────
+
+2026-04-01 * "Employer" "April salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2026-04-01 * "Landlord" "April rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2026-04-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       98.00 USD
+  Assets:Cash:Checking               -98.00 USD
+
+2026-04-07 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2026-04-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2026-04-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 145.00 USD
+  Assets:Cash:Checking              -145.00 USD
+
+2026-04-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2026-04-14 * "NYU Langone" "Dental checkup"
+  Expenses:Healthcare                150.00 USD
+  Assets:Cash:Checking              -150.00 USD
+
+2026-04-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2026-04-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2026-04-18 * "Uniqlo" "Spring wardrobe"
+  Expenses:Shopping                  280.00 USD
+  Assets:Cash:Checking              -280.00 USD
+
+2026-04-20 * "Blue Note Jazz Club" "Jazz concert"
+  Expenses:Entertainment             200.00 USD
+  Assets:Cash:Checking              -200.00 USD
+
+2026-04-22 * "Taobao" "Home decor items" ; paid via Alipay
+  Expenses:Shopping                  320 CNY
+  Assets:Cash:Alipay                -320 CNY
+
+2026-04-24 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      105.00 USD
+  Assets:Cash:Checking              -105.00 USD
+
+2026-04-28 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               3000.00 USD
+  Assets:Cash:Checking             -3000.00 USD
+
+2026-04-30 * "Vanguard" "ETF – DCA April"
+  Assets:Investment:ETF                8 VTSAX {132.40 USD}
+  Assets:Cash:Checking             -1059.20 USD
+
+; ── May 2026 (through May 10) ────────────────────────────────────────────
+
+2026-05-01 * "Employer" "May salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2026-05-01 * "Landlord" "May rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2026-05-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       92.00 USD
+  Assets:Cash:Checking               -92.00 USD
+
+2026-05-05 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2026-05-07 * "Meituan" "Chinese food delivery" ; paid via Alipay
+  Expenses:Food                      120 CNY
+  Assets:Cash:Alipay                -120 CNY
+
+2026-05-08 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2026-05-10 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2026-05-10 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD

@@ -1,0 +1,61 @@
+; BeanViz Demo Ledger
+; Fictional persona: Alex Rivera, software engineer in New York City.
+; Demonstrates multi-currency accounts, investments, expenses by category, and trip tags.
+
+option "title" "BeanViz Demo Ledger"
+option "operating_currency" "USD"
+
+; ── Commodity metadata ────────────────────────────────────────────────────
+
+2025-05-01 commodity VTSAX
+  name: "Vanguard Total Stock Market ETF"
+
+2025-05-01 commodity BTC
+  name: "Bitcoin"
+
+2025-05-01 commodity ETH
+  name: "Ethereum"
+
+; ── Assets ───────────────────────────────────────────────────────────────
+
+2025-05-01 open Assets:Cash:Checking           USD
+2025-05-01 open Assets:Cash:Savings            USD
+2025-05-01 open Assets:Cash:Alipay             CNY
+2025-05-01 open Assets:Cash:Revolut            EUR
+
+2025-05-01 open Assets:Investment:ETF
+2025-05-01 open Assets:Investment:Crypto:Bitcoin
+2025-05-01 open Assets:Investment:Crypto:Ethereum
+
+; ── Liabilities ───────────────────────────────────────────────────────────
+
+2025-05-01 open Liabilities:CreditCard:Visa    USD
+
+; ── Expenses ─────────────────────────────────────────────────────────────
+
+2025-05-01 open Expenses:Food
+2025-05-01 open Expenses:Housing
+2025-05-01 open Expenses:Transport
+2025-05-01 open Expenses:Entertainment
+2025-05-01 open Expenses:Travel
+2025-05-01 open Expenses:Healthcare
+2025-05-01 open Expenses:Shopping
+2025-05-01 open Expenses:Utilities
+2025-05-01 open Expenses:Subscriptions
+2025-05-01 open Expenses:Education
+
+; ── Income ────────────────────────────────────────────────────────────────
+
+2025-05-01 open Income:Salary
+2025-05-01 open Income:Bonus
+2025-05-01 open Income:Investment:Dividends
+
+; ── Equity ────────────────────────────────────────────────────────────────
+
+2025-05-01 open Equity:Opening-Balances
+
+; ── Includes ─────────────────────────────────────────────────────────────
+
+include "prices.bean"
+include "2025.bean"
+include "2026.bean"

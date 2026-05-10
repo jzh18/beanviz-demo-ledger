@@ -1,0 +1,68 @@
+; Market prices – updated monthly for currency conversion in the app.
+; The CurrencyConverter uses the most recent price on or before each transaction date.
+
+; ── VTSAX (Vanguard Total Stock Market ETF) ───────────────────────────────
+
+2025-05-01 price VTSAX  118.50 USD
+2025-06-01 price VTSAX  120.80 USD
+2025-07-01 price VTSAX  122.40 USD
+2025-08-01 price VTSAX  119.90 USD
+2025-09-01 price VTSAX  125.60 USD
+2025-10-01 price VTSAX  128.30 USD
+2025-11-01 price VTSAX  131.70 USD
+2025-12-01 price VTSAX  133.20 USD
+2026-01-01 price VTSAX  130.80 USD
+2026-02-01 price VTSAX  134.50 USD
+2026-03-01 price VTSAX  136.90 USD
+2026-04-01 price VTSAX  132.40 USD
+2026-05-01 price VTSAX  138.20 USD
+
+; ── Bitcoin ───────────────────────────────────────────────────────────────
+
+2025-05-01 price BTC   62000.00 USD
+2025-06-01 price BTC   65000.00 USD
+2025-07-01 price BTC   68500.00 USD
+2025-08-01 price BTC   71000.00 USD
+2025-09-01 price BTC   75000.00 USD
+2025-10-01 price BTC   82000.00 USD
+2025-11-01 price BTC   88000.00 USD
+2025-12-01 price BTC   95000.00 USD
+2026-01-01 price BTC   98000.00 USD
+2026-02-01 price BTC   92000.00 USD
+2026-03-01 price BTC   96000.00 USD
+2026-04-01 price BTC   89000.00 USD
+2026-05-01 price BTC   97000.00 USD
+
+; ── Ethereum ──────────────────────────────────────────────────────────────
+
+2025-05-01 price ETH    3100.00 USD
+2025-06-01 price ETH    3300.00 USD
+2025-07-01 price ETH    3500.00 USD
+2025-08-01 price ETH    3600.00 USD
+2025-09-01 price ETH    3800.00 USD
+2025-10-01 price ETH    4100.00 USD
+2025-11-01 price ETH    4300.00 USD
+2025-12-01 price ETH    4600.00 USD
+2026-01-01 price ETH    4800.00 USD
+2026-02-01 price ETH    4400.00 USD
+2026-03-01 price ETH    4600.00 USD
+2026-04-01 price ETH    4200.00 USD
+2026-05-01 price ETH    4500.00 USD
+
+; ── Euro ──────────────────────────────────────────────────────────────────
+
+2025-05-01 price EUR    1.0820 USD
+2025-07-01 price EUR    1.0750 USD
+2025-09-01 price EUR    1.0880 USD
+2025-11-01 price EUR    1.0790 USD
+2026-01-01 price EUR    1.0920 USD
+2026-03-01 price EUR    1.0840 USD
+2026-05-01 price EUR    1.1050 USD
+
+; ── Chinese Yuan ──────────────────────────────────────────────────────────
+
+2025-05-01 price CNY    0.1378 USD
+2025-08-01 price CNY    0.1382 USD
+2025-11-01 price CNY    0.1375 USD
+2026-02-01 price CNY    0.1380 USD
+2026-05-01 price CNY    0.1385 USD

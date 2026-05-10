@@ -1,0 +1,608 @@
+; =============================================================================
+; 2025 Transactions  (May – December)
+; =============================================================================
+
+; ── Opening Balances (2025-05-01) ────────────────────────────────────────
+
+2025-05-01 * "Opening balances – USD accounts"
+  Assets:Cash:Checking              5800.00 USD
+  Assets:Cash:Savings              28500.00 USD
+  Liabilities:CreditCard:Visa      -1200.00 USD
+  Equity:Opening-Balances         -33100.00 USD
+
+2025-05-01 * "Opening balance – CNY"
+  Assets:Cash:Alipay               12000 CNY
+  Equity:Opening-Balances         -12000 CNY
+
+2025-05-01 * "Opening balance – EUR"
+  Assets:Cash:Revolut                600 EUR
+  Equity:Opening-Balances            -600 EUR
+
+2025-05-01 * "Opening balance – ETF"
+  Assets:Investment:ETF              150 VTSAX {118.50 USD}
+  Equity:Opening-Balances         -17775.00 USD
+
+2025-05-01 * "Opening balance – crypto"
+  Assets:Investment:Crypto:Bitcoin    0.15 BTC {62000.00 USD}
+  Assets:Investment:Crypto:Ethereum   2.00 ETH {3100.00 USD}
+  Equity:Opening-Balances          -15500.00 USD
+
+; ── May 2025 ─────────────────────────────────────────────────────────────
+
+2025-05-01 * "Employer" "May salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-05-01 * "Chase Visa" "Pay off opening credit card balance"
+  Liabilities:CreditCard:Visa       1200.00 USD
+  Assets:Cash:Checking             -1200.00 USD
+
+2025-05-02 * "Landlord" "May rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-05-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2025-05-07 * "Shake Shack" "Lunch"
+  Expenses:Food                       22.50 USD
+  Assets:Cash:Checking               -22.50 USD
+
+2025-05-08 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-05-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2025-05-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 120.00 USD
+  Assets:Cash:Checking              -120.00 USD
+
+2025-05-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-05-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-05-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-05-16 * "Joe's Shanghai" "Dinner with friends"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2025-05-17 * "Din Tai Fung" "Weekend dim sum" ; paid via Alipay
+  Expenses:Food                      280 CNY
+  Assets:Cash:Alipay                -280 CNY
+
+2025-05-18 * "NYU Langone" "Doctor copay"
+  Expenses:Healthcare                150.00 USD
+  Assets:Cash:Checking              -150.00 USD
+
+2025-05-22 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      112.00 USD
+  Assets:Cash:Checking              -112.00 USD
+
+2025-05-24 * "AMC Cinemas" "Movie night"
+  Expenses:Entertainment              32.00 USD
+  Assets:Cash:Checking               -32.00 USD
+
+2025-05-27 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       98.00 USD
+  Assets:Cash:Checking               -98.00 USD
+
+2025-05-28 * "Amazon" "Office supplies and desk accessories"
+  Expenses:Shopping                  145.00 USD
+  Assets:Cash:Checking              -145.00 USD
+
+2025-05-30 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               1500.00 USD
+  Assets:Cash:Checking             -1500.00 USD
+
+2025-05-31 * "Vanguard" "ETF – DCA May"
+  Assets:Investment:ETF                8 VTSAX {118.50 USD}
+  Assets:Cash:Checking              -948.00 USD
+
+; ── June 2025 ────────────────────────────────────────────────────────────
+
+2025-06-01 * "Employer" "June salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-06-02 * "Landlord" "June rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-06-04 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       92.00 USD
+  Assets:Cash:Checking               -92.00 USD
+
+2025-06-07 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-06-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       85.00 USD
+  Assets:Cash:Checking               -85.00 USD
+
+2025-06-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 110.00 USD
+  Assets:Cash:Checking              -110.00 USD
+
+2025-06-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-06-13 * "Chipotle" "Lunch"
+  Expenses:Food                       14.50 USD
+  Assets:Cash:Checking               -14.50 USD
+
+2025-06-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-06-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-06-18 * "TAO Restaurant" "Client dinner"
+  Expenses:Food                      185.00 USD
+  Assets:Cash:Checking              -185.00 USD
+
+2025-06-20 * "Meituan" "Chinese food delivery" ; paid via Alipay
+  Expenses:Food                      180 CNY
+  Assets:Cash:Alipay                -180 CNY
+
+2025-06-21 * "SummerStage" "Outdoor concert"
+  Expenses:Entertainment              80.00 USD
+  Assets:Cash:Checking               -80.00 USD
+
+2025-06-25 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      108.00 USD
+  Assets:Cash:Checking              -108.00 USD
+
+2025-06-28 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               2000.00 USD
+  Assets:Cash:Checking             -2000.00 USD
+
+2025-06-30 * "Vanguard" "ETF – DCA June"
+  Assets:Investment:ETF                8 VTSAX {120.80 USD}
+  Assets:Cash:Checking              -966.40 USD
+
+; ── July 2025 ────────────────────────────────────────────────────────────
+
+2025-07-01 * "Employer" "July salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-07-01 * "Landlord" "July rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-07-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      102.00 USD
+  Assets:Cash:Checking              -102.00 USD
+
+2025-07-05 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-07-07 * "Vanguard" "VTSAX Q2 dividend"
+  Assets:Cash:Checking               60.00 USD
+  Income:Investment:Dividends        -60.00 USD
+
+2025-07-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       90.00 USD
+  Assets:Cash:Checking               -90.00 USD
+
+2025-07-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 105.00 USD
+  Assets:Cash:Checking              -105.00 USD
+
+2025-07-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-07-14 * "Comedy Cellar" "Stand-up comedy show"
+  Expenses:Entertainment              45.00 USD
+  Assets:Cash:Checking               -45.00 USD
+
+2025-07-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-07-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-07-17 * "Le Bernardin" "Anniversary dinner"
+  Expenses:Food                      280.00 USD
+  Assets:Cash:Checking              -280.00 USD
+
+2025-07-18 * "Taobao" "Books and household items" ; paid via Alipay
+  Expenses:Shopping                  450 CNY
+  Assets:Cash:Alipay                -450 CNY
+
+2025-07-22 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       96.00 USD
+  Assets:Cash:Checking               -96.00 USD
+
+2025-07-25 * "REI" "Summer outdoor gear"
+  Expenses:Shopping                  165.00 USD
+  Assets:Cash:Checking              -165.00 USD
+
+2025-07-28 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2025-07-29 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               2000.00 USD
+  Assets:Cash:Checking             -2000.00 USD
+
+2025-07-31 * "Vanguard" "ETF – DCA July"
+  Assets:Investment:ETF                8 VTSAX {122.40 USD}
+  Assets:Cash:Checking              -979.20 USD
+
+; ── August 2025 – Japan Trip (#japan-trip) ───────────────────────────────
+
+2025-08-01 * "Employer" "August salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-08-01 * "Landlord" "August rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-08-04 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2025-08-07 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-08-10 * "ANA Airlines" "Round-trip NYC–Tokyo" #japan-trip
+  Expenses:Travel                   1380.00 USD
+  Assets:Cash:Checking             -1380.00 USD
+
+2025-08-11 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 115.00 USD
+  Assets:Cash:Checking              -115.00 USD
+
+2025-08-11 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-08-11 * "Park Hyatt Tokyo" "7 nights hotel" #japan-trip
+  Expenses:Travel                    890.00 USD
+  Assets:Cash:Checking              -890.00 USD
+
+2025-08-12 * "Shibuya & Harajuku" "Day tours and cultural experiences" #japan-trip
+  Expenses:Entertainment             320.00 USD
+  Assets:Cash:Checking              -320.00 USD
+
+2025-08-13 * "Tokyo restaurants" "Sushi, ramen, and izakaya dining" #japan-trip
+  Expenses:Food                      420.00 USD
+  Assets:Cash:Checking              -420.00 USD
+
+2025-08-14 * "Akihabara" "Electronics and anime merchandise" #japan-trip
+  Expenses:Shopping                  520.00 USD
+  Assets:Cash:Checking              -520.00 USD
+
+2025-08-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-08-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-08-28 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       95.00 USD
+  Assets:Cash:Checking               -95.00 USD
+
+2025-08-30 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               1000.00 USD
+  Assets:Cash:Checking             -1000.00 USD
+
+2025-08-31 * "Vanguard" "ETF – DCA August"
+  Assets:Investment:ETF                8 VTSAX {119.90 USD}
+  Assets:Cash:Checking              -959.20 USD
+
+; ── September 2025 ───────────────────────────────────────────────────────
+
+2025-09-01 * "Employer" "September salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-09-01 * "Landlord" "September rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-09-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       97.00 USD
+  Assets:Cash:Checking               -97.00 USD
+
+2025-09-06 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-09-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2025-09-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 125.00 USD
+  Assets:Cash:Checking              -125.00 USD
+
+2025-09-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-09-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-09-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-09-17 * "Alipay" "CNY top-up"
+  Assets:Cash:Alipay                5000 CNY @ 0.1382 USD
+  Assets:Cash:Checking              -691.00 USD
+
+2025-09-18 * "Coursera" "Machine learning specialization"
+  Expenses:Education                 299.00 USD
+  Assets:Cash:Checking              -299.00 USD
+
+2025-09-20 * "Mount Sinai" "Annual physical checkup"
+  Expenses:Healthcare                200.00 USD
+  Assets:Cash:Checking              -200.00 USD
+
+2025-09-22 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      102.00 USD
+  Assets:Cash:Checking              -102.00 USD
+
+2025-09-25 * "Meituan" "Chinese food delivery" ; paid via Alipay
+  Expenses:Food                      220 CNY
+  Assets:Cash:Alipay                -220 CNY
+
+2025-09-27 * "Madison Square Garden" "Concert tickets"
+  Expenses:Entertainment             160.00 USD
+  Assets:Cash:Checking              -160.00 USD
+
+2025-09-29 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               2500.00 USD
+  Assets:Cash:Checking             -2500.00 USD
+
+2025-09-30 * "Vanguard" "ETF – DCA September"
+  Assets:Investment:ETF                8 VTSAX {125.60 USD}
+  Assets:Cash:Checking             -1004.80 USD
+
+; ── October 2025 ─────────────────────────────────────────────────────────
+
+2025-10-01 * "Employer" "October salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-10-01 * "Landlord" "October rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-10-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      105.00 USD
+  Assets:Cash:Checking              -105.00 USD
+
+2025-10-06 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-10-07 * "Vanguard" "VTSAX Q3 dividend"
+  Assets:Cash:Checking               64.00 USD
+  Income:Investment:Dividends        -64.00 USD
+
+2025-10-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       92.00 USD
+  Assets:Cash:Checking               -92.00 USD
+
+2025-10-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 135.00 USD
+  Assets:Cash:Checking              -135.00 USD
+
+2025-10-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-10-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-10-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-10-18 * "Zara" "Fall clothing"
+  Expenses:Shopping                  320.00 USD
+  Assets:Cash:Checking              -320.00 USD
+
+2025-10-20 * "Joe's Shanghai" "Weekend dinner"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2025-10-23 * "Broadway" "Hamilton tickets"
+  Expenses:Entertainment             250.00 USD
+  Assets:Cash:Checking              -250.00 USD
+
+2025-10-26 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                      110.00 USD
+  Assets:Cash:Checking              -110.00 USD
+
+2025-10-28 * "Taobao" "Household items" ; paid via Alipay
+  Expenses:Shopping                  380 CNY
+  Assets:Cash:Alipay                -380 CNY
+
+2025-10-29 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               2000.00 USD
+  Assets:Cash:Checking             -2000.00 USD
+
+2025-10-31 * "Vanguard" "ETF – DCA October"
+  Assets:Investment:ETF                8 VTSAX {128.30 USD}
+  Assets:Cash:Checking             -1026.40 USD
+
+; ── November 2025 ────────────────────────────────────────────────────────
+
+2025-11-01 * "Employer" "November salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-11-01 * "Landlord" "November rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-11-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       96.00 USD
+  Assets:Cash:Checking               -96.00 USD
+
+2025-11-06 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-11-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       89.00 USD
+  Assets:Cash:Checking               -89.00 USD
+
+2025-11-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 150.00 USD
+  Assets:Cash:Checking              -150.00 USD
+
+2025-11-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-11-14 * "Amazon" "Early holiday shopping"
+  Expenses:Shopping                  285.00 USD
+  Assets:Cash:Checking              -285.00 USD
+
+2025-11-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-11-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-11-20 * "Whole Foods" "Thanksgiving groceries"
+  Expenses:Food                      180.00 USD
+  Assets:Cash:Checking              -180.00 USD
+
+2025-11-22 * "Meituan" "Chinese food delivery" ; paid via Alipay
+  Expenses:Food                      200 CNY
+  Assets:Cash:Alipay                -200 CNY
+
+2025-11-27 * "Cipriani" "Thanksgiving dinner"
+  Expenses:Food                      220.00 USD
+  Assets:Cash:Checking              -220.00 USD
+
+2025-11-28 * "Chase" "Transfer to savings"
+  Assets:Cash:Savings               2000.00 USD
+  Assets:Cash:Checking             -2000.00 USD
+
+2025-11-30 * "Vanguard" "ETF – DCA November"
+  Assets:Investment:ETF                8 VTSAX {131.70 USD}
+  Assets:Cash:Checking             -1053.60 USD
+
+; ── December 2025 – Christmas in Europe (#christmas-europe) ──────────────
+
+2025-12-01 * "Employer" "December salary"
+  Assets:Cash:Checking              7500.00 USD
+  Income:Salary                    -7500.00 USD
+
+2025-12-01 * "Landlord" "December rent"
+  Expenses:Housing                  2200.00 USD
+  Assets:Cash:Checking             -2200.00 USD
+
+2025-12-03 * "Whole Foods" "Weekly groceries"
+  Expenses:Food                       94.00 USD
+  Assets:Cash:Checking               -94.00 USD
+
+2025-12-06 * "MTA" "Monthly metro card"
+  Expenses:Transport                 130.00 USD
+  Assets:Cash:Checking              -130.00 USD
+
+2025-12-07 * "Vanguard" "VTSAX Q4 dividend"
+  Assets:Cash:Checking               68.00 USD
+  Income:Investment:Dividends        -68.00 USD
+
+2025-12-10 * "Trader Joe's" "Weekly groceries"
+  Expenses:Food                       88.00 USD
+  Assets:Cash:Checking               -88.00 USD
+
+2025-12-12 * "Con Edison" "Electricity and gas"
+  Expenses:Utilities                 165.00 USD
+  Assets:Cash:Checking              -165.00 USD
+
+2025-12-12 * "Spectrum" "Internet"
+  Expenses:Utilities                  55.00 USD
+  Assets:Cash:Checking               -55.00 USD
+
+2025-12-15 * "Netflix" "Monthly subscription"
+  Expenses:Subscriptions              15.99 USD
+  Assets:Cash:Checking               -15.99 USD
+
+2025-12-15 * "Spotify" "Monthly subscription"
+  Expenses:Subscriptions              10.99 USD
+  Assets:Cash:Checking               -10.99 USD
+
+2025-12-15 * "Employer" "Year-end performance bonus"
+  Assets:Cash:Checking              5000.00 USD
+  Income:Bonus                     -5000.00 USD
+
+2025-12-18 * "Lufthansa" "Round-trip NYC–Frankfurt" #christmas-europe
+  Expenses:Travel                   1650.00 USD
+  Assets:Cash:Checking             -1650.00 USD
+
+2025-12-18 * "Revolut" "EUR top-up for Europe trip"
+  Assets:Cash:Revolut               1000 EUR @ 1.079 USD
+  Assets:Cash:Checking             -1079.00 USD
+
+2025-12-19 * "Airbnb Frankfurt" "5 nights – central apartment" #christmas-europe
+  Expenses:Travel                    480 EUR
+  Assets:Cash:Revolut               -480 EUR
+
+2025-12-20 * "Weihnachtsmarkt" "Frankfurt Christmas market activities" #christmas-europe
+  Expenses:Entertainment             120 EUR
+  Assets:Cash:Revolut               -120 EUR
+
+2025-12-21 * "Zum Gemalten Haus" "Traditional German dinner" #christmas-europe
+  Expenses:Food                       95 EUR
+  Assets:Cash:Revolut                -95 EUR
+
+2025-12-22 * "Deutsche Bahn + Rijksmuseum" "Amsterdam day trip" #christmas-europe
+  Expenses:Travel                    180 EUR
+  Assets:Cash:Revolut               -180 EUR
+
+2025-12-23 * "Dutch souvenirs" "Stroopwafels and gifts" #christmas-europe
+  Expenses:Shopping                   85 EUR
+  Assets:Cash:Revolut                -85 EUR
+
+2025-12-25 * "Restaurant Weinstuben" "Christmas dinner" #christmas-europe
+  Expenses:Food                      110 EUR
+  Assets:Cash:Revolut               -110 EUR
+
+2025-12-28 * "Amazon" "Post-holiday sales"
+  Expenses:Shopping                  195.00 USD
+  Assets:Cash:Checking              -195.00 USD
+
+2025-12-29 * "Chase" "Year-end transfer to savings"
+  Assets:Cash:Savings               3000.00 USD
+  Assets:Cash:Checking             -3000.00 USD
+
+2025-12-31 * "Vanguard" "ETF – DCA December"
+  Assets:Investment:ETF                8 VTSAX {133.20 USD}
+  Assets:Cash:Checking             -1065.60 USD
